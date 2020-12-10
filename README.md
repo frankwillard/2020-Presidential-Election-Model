@@ -19,7 +19,7 @@ PCA2: Incorporates three interaction terms
 
 ## Data Dictionary
 
-| Attribute Name | Display Name | Alt Name | Type | Value Range | Description | Source |
+| Attribute Name | Display Name | Alt Name | Type | Value Range |       Description      | Source |
 | ------------- |:-------------:| :-------------:| :-------------:| :-------------:| :--------------------------:| --:|
 | Incumbency Indicator | incumbency | x0 | Boolean | -1 to 1 | If the current president is running for reelection, 1 if democrat and -1 if republican. If the current president is not running, 0. | https://en.wikipedia.org/wiki/United_States_presidential_election |
 | Incumbent Party Indicator | incumbent_party | x1 | Boolean | -1 to 1 | If the current president is democratic, this is a 1. If republican, this is a -1. | https://en.wikipedia.org/wiki/United_States_presidential_election |
