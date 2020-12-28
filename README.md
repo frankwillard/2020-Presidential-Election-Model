@@ -7,12 +7,12 @@ y- Democratic Vote Share for a given state
 
 ŷ = 0.251150 * incumbency - 1.110680 * consec_terms + 1.614704 * home_state + 0.036132 * black + 0.035016 * hispanic - 0.136206 * cuban + 0.025504 * nonwhite - 0.111260 * pca1 - 0.062855 * evangelical + 0.014444 * educated - 0.110635 * pca2 + 0.671394 * polling_variable – 0.156228 * third_party + 0.329908 * past_elections + 17.4902
 
-PCA1: Incorporates three variables
+PCA1: Principal Components Analysis Incorporates three variables
 1. young_age
 2. middle_age
 3. old_age
 
-PCA2: Incorporates three interaction terms
+PCA2: Principal Components Analysis Incorporates three interaction terms (between incumbency and economic variables)
 1. incumbent_party * gdp
 2. incumbent_party * unemployment
 3. incumbent_party * income
